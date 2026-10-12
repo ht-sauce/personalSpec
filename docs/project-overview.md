@@ -6,10 +6,12 @@
 
 ```
 personalSpec/
-├─ AGENTS.md                       # AI 协作统一入口：项目定位 / 文档索引 / 冲突裁决 / 必读流程 / NEVER 边界
+├─ AGENTS.md                       # AI 协作统一入口：项目定位 / 文档索引 / 冲突裁决 / NEVER 边界
 ├─ README.md                       # 人类入口：资产清单与使用方式
-├─ 通用项目建项规范-SPEC.md          # 【产品】主模板 v2.0，四类形态通用建项规范（唯一通用规范源）
-├─ 原型设计规范-SPEC.md             # 【产品】形态 D 接入件 v1.0，原型设计项目差异部分
+├─ 通用项目建项规范-SPEC.md          # 【产品】主模板 v3.0，四类形态通用建项骨架（唯一通用规范源）
+├─ 代码工程规范-SPEC.md             # 【产品】形态 A 接入件 v1.0，代码工程专属细则 + 形态 A 问项
+├─ 原型设计规范-SPEC.md             # 【产品】形态 D 接入件 v2.0，原型设计项目差异部分
+├─ SPEC 修订分析附录.md             # 【产品】修订分析留档：对比分析 + 历史修订分析（只增不删）
 ├─ docs/
 │  ├─ README.md                    # 本项目治理入口：必读流程 / 硬约束 10 条 / 维护契约
 │  ├─ project-overview.md          # 本文件：文件级目录地图
@@ -19,18 +21,13 @@ personalSpec/
       └─ git-commit-message.md     # 平台适配层：Git 提交信息规则（alwaysApply 注入）
 ```
 
-## 外部关联（不在本目录）
-
-| 对象 | 路径 | 关系 |
-| --- | --- | --- |
-| 全局 skill `project-spec-init` | `c:\Users\ht\.trae-cn\skills\project-spec-init\SKILL.md` | 封装主模板 §14 问询式立项；只指向本目录 SPEC，不复制规则 |
-| 其他全局 skills | `c:\Users\ht\.trae-cn\skills\` | 同目录共存，无内容依赖 |
-
 ## 改动类型速查
 
 | 想做什么 | 先看哪里 |
 | --- | --- |
-| 给新项目立项 | 走全局 skill `project-spec-init`（不在本项目内生成） |
+| 给新项目立项 | 把主模板（+ 对应接入件）交给 AI，走主模板 §9 问询式立项（不在本项目内生成） |
 | 改通用建项规则 | 通用项目建项规范-SPEC.md 全文 + writing-conventions.md |
+| 改代码工程细则 | 代码工程规范-SPEC.md + 主模板适用范围章节 |
 | 改原型设计差异规则 | 原型设计规范-SPEC.md + 主模板适用范围章节 |
+| 查历史修订依据 | SPEC 修订分析附录.md（只增不删） |
 | 新增形态接入件 | docs/README.md 维护契约 + AGENTS.md 索引区 |
