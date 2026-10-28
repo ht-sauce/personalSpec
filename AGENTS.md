@@ -16,7 +16,7 @@
 | --- | --- | --- |
 | L0 | AGENTS.md（本文件） | 统一入口，只引导 |
 | L0 | [README.md](file:///d:/g/个人项目/personalSpec/README.md) | 人类入口：简介 + 使用方式 |
-| 产品 | [通用项目建项规范-SPEC.md](file:///d:/g/个人项目/personalSpec/通用项目建项规范-SPEC.md) | 主模板 v3.3（唯一通用规范源） |
+| 产品 | [通用项目建项规范-SPEC.md](file:///d:/g/个人项目/personalSpec/通用项目建项规范-SPEC.md) | 主模板 v3.4（唯一通用规范源） |
 | 产品 | [代码工程规范-SPEC.md](file:///d:/g/个人项目/personalSpec/代码工程规范-SPEC.md) | 形态 A 接入件 |
 | 产品 | [原型设计规范-SPEC.md](file:///d:/g/个人项目/personalSpec/原型设计规范-SPEC.md) | 形态 D 接入件 |
 | 产品 | [SPEC 修订分析附录.md](file:///d:/g/个人项目/personalSpec/SPEC%20修订分析附录.md) | 修订分析留档（只增不删） |
